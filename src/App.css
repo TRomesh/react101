@@ -1,38 +1,68 @@
-.App {
+.app {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  margin: 35px auto 10px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form {
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input {
+  margin: 5px;
+  padding: 5px;
+  border: solid black 2px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-remove {
+  margin: 4px;
+  padding: 4px 8px;
+  background-color: rgb(173, 71, 71);
+  border: solid rgb(172, 32, 32) 2px;
   color: white;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.list-container {
+  width: 400px;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.list .li {
+  margin: 3px 24px;
+  padding: 3px 10px;
+  border-top: 2px solid darkgray;
+}
+
+.todo-text {
+  margin-left: 5px;
+}
+
+.input-update {
+  margin: 5px;
+  padding: 5px;
+  border: solid #333333 2px;
+  border-radius: 5px;
 }
